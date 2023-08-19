@@ -26,6 +26,33 @@ body {
   border-radius: 10px;
 }
 
+h1{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{
+  color: crimson;
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+footer{
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;
@@ -51,30 +78,19 @@ form button {
   height: 50px;
   cursor: pointer;
   margin-top: 30px;
+  border-radius: 10px;
 }
 
 form button:hover {
   background: var(--primary-color-darker);
 }
 
-.titulo {
-    text-align: center;
+.paragrafo-resultado, .bad{
+  background-color: rgb(194, 255, 102);
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
-.texto1 {
-    display: block;
-    
-}
-
-.texto2 {
-    display: block;
-    
-}
-
-.menu {
-
-}
-
-article {
-    width: 150px;
+.bad{
+  background-color: rgb(255, 105, 105);
 }
